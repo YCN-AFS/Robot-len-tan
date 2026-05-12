@@ -1,0 +1,17 @@
+# ═══════════════════════════════════════
+# Robot Lễ Tân Phòng Lab — Dependencies
+# ═══════════════════════════════════════
+
+# ── Core
+alphamini
+websockets==10.4
+
+# ── Local STT (robot mic → PC → Google Speech API)
+SpeechRecognition
+
+# ── Intelligence
+openai>=1.0
+google-generativeai>=0.3
+
+# ── Config
+python-dotenv>=1.0.0
